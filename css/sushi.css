@@ -69,11 +69,35 @@ body {
     margin: 0;
   }
 
-
-/* .holdsContent ul li p {
-  display: inline-block;
 }
- */
 
+@media (max-width: 499px) {
 
+  .holdsContent {
+    width: auto;
+  }
+
+  .holdsContent ul li {
+    display: block;
+    width: auto;
+  }
+
+  .holdsContent ul li img {
+    max-width: 90%;
+    margin: 5%;
+    }
+
+  .holdsContent ul li h3 {
+    width: auto;
+    text-align: center;
+    }
+
+  .holdsContent ul li p {
+    text-align: center;
+    }
+
+    .containText {
+      max-width: 85%;
+      margin-left: 4%;
+  }
 }
