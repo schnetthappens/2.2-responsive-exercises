@@ -5,7 +5,23 @@
           box-sizing: border-box;
         }
 
-  body {
-    max-width: 1080px;
-    background-color: red;
-  }
+body {
+  max-width: 1080px;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+form {
+  margin: 0 auto;
+}
+
+.columnOne, .columnTwo, .columnThree {
+  width: 30%;
+  background-color: green;
+  display: inline-block;
+  margin: 0 auto;
+  margin: 1%;
+}
