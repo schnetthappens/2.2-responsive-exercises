@@ -37,3 +37,43 @@ body {
 .holdsContent ul li img {
   max-width: 100%;
 }
+
+
+/*tablet size */
+
+@media (min-width: 500px) and (max-width: 840px) {
+
+.holdsContent {
+  /* max-width: 840px; */
+  width: auto;
+}
+
+.holdsContent ul li {
+  display: block;
+  width: auto;
+}
+
+.holdsContent ul li img {
+  width: 40%;
+  display: inline-block;
+  }
+
+  .containText {
+    display: inline-block;
+    width: 50%;
+    margin-left: 4%;
+    vertical-align: top;
+  }
+
+  .holdsContent ul li h3 {
+    margin: 0;
+  }
+
+
+/* .holdsContent ul li p {
+  display: inline-block;
+}
+ */
+
+
+}
