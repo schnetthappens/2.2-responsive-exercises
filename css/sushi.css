@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  width: auto;
+  background-color: #fff;
+  color: #009BD8;
+  font-family: 'Lato', sans-serif;
+  font-size: 62.5%;
+}
+
+.holdsContent {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.holdsContent ul {
+  max-width: auto;
+  margin: 5% auto;
+}
+
+.holdsContent ul li {
+  list-style: none;
+  display: inline-block;
+  width: 30.2387%;
+  padding: 1%;
+  vertical-align: top;
+}
+
+  .holdsContent ul li h3 {
+    font-size: 2em;
+  }
+
+  .holdsContent ul li p {
+    font-size: 1.5em;
+  }
+
+.holdsContent ul li img {
+  max-width: 100%;
+}
