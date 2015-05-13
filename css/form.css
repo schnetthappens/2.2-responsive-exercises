@@ -33,8 +33,9 @@ form {
     select {
       width: 85%;
       background-color: #4BA2D9;
+      margin-top: 1%;
       border: 2px solid #fff;
-      border-radius: 2px;
+      border-radius: 4px;
     }
 
     select {
@@ -47,20 +48,28 @@ form {
       height: 30px;
     }
 
-      input:hover, textarea:hover {
-        border-color: #2a6b99;
-      }
 
+    h2 {
+      margin: 6% 0 0 0;
+      font-weight: 300;
+    }
 
-      h2 {
-        margin: 6% 0 0 0;
-        font-weight: 300;
-      }
 
       ::-webkit-input-placeholder {
         color: #2a6b99;
         font-style: italic;
         font-size: 1.2em;
         line-height: 1em;
+        padding-left: 2%;
+      }
+
+      input:hover, textarea:hover, select:hover {
+        border-color: #2a6b99;
+      }
+
+      input[type=text],
+      input[type=email] {
+        font-size: 1.2em;
+        color: #fff;
         padding-left: 2%;
       }
