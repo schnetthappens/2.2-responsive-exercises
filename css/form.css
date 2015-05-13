@@ -6,8 +6,6 @@
         }
 
 body {
-  max-width: 1080px;
-  background-color: red;
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
   text-transform: uppercase;
@@ -15,13 +13,31 @@ body {
 }
 
 form {
-  margin: 0 auto;
+  max-width: 1300px;
+  height: 500px;
+  margin: 3% auto;
+  background-color: #4BA2D9;
+  text-align: left;
 }
 
 .columnOne, .columnTwo, .columnThree {
   width: 30%;
-  background-color: green;
   display: inline-block;
-  margin: 0 auto;
-  margin: 1%;
+  /* margin: 0 5%; */
+  vertical-align: middle;
+  margin-left: 3%;
 }
+
+
+input,
+textarea,
+select {
+  width: 85%;
+  background-color: #4BA2D9;
+  border: 2px solid #fff;
+}
+
+/* textarea {
+ width: 85%;
+ height: 50%;
+} */
