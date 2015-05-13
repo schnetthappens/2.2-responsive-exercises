@@ -8,32 +8,77 @@
 </head>
 <body>
   <form action="/my-handling-form-page" method="post">
+
+    <!--COLUMN ONE-->
     <div class="columnOne">
       <h2>First Name</h2>
-      <h2>Last Name</h2>
-      <h2>Email Address</h2>
-      <h2>Country</h2>
-      <h2>Biography</h2>
-    </div>
+      <input type="text" name="first name">
 
+      <h2>Last Name</h2>
+      <input type="text" name="last name">
+
+      <h2>Email Address</h2>
+      <input type="email" name="email-address">
+
+      <h2>Country</h2>
+      <select name="country">
+        <option value="United States" selected>United States</option>
+        <option value="England">England</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Spain">Spain</option>
+        <option value="Italy">Italy</option>
+      </select>
+
+      <h2>Biography</h2>
+      <textarea name="biography">Tell me a little about yourself.</textarea>
+    </div><!--END COLUMN ONE-->
+
+    <!--COLUMN TWO-->
     <div class="columnTwo">
       <h2>Phone Number</h2>
-      <h2>Affiliations</h2>
-      <h2>Occupation</h2>
-      <h2>Cat's Name</h2>
-      <h2>Favorite Gadget</h2>
-    </div>
+      <input type="text" name="phone-number">
 
+      <h2>Affiliations</h2>
+      <textarea name="affiliations"></textarea>
+
+      <h2>Occupation</h2>
+      <select name="occupation">
+        <option value="Front-End Developer" selected>Front-End Developer</option>
+        <option value="Back-End Developer">Back-End Developer</option>
+        <option value="Product Owner">Product Owner</option>
+        <option value="Creative Director">Creative Director</option>
+        <option value="Sales Manager">Sales Manager</option>
+
+      <h2>Cat's Name</h2>
+      <input type="text" name="cats-name">
+
+      <h2>Favorite Gadget</h2>
+      <input type="text" name="favorite-gadget">
+    </div><!--END COLUMN TWO-->
+
+    <!--COLUMN THREE-->
     <div class="columnThree">
       <h2>Type of Talent</h2>
+      <select name="talent">
+        <option value="Git">Git</option>
+        <option value="SASS">SASS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="AngularJS">AngularJS</option>
+        <option value="EmberJS">EmberJS</option>
+
       <h2>Favorite Drink</h2>
+      <input type="text" name="favorite-drink">
+
       <h2>Special Power</h2>
+      <input type="text" name="special-power">
+
       <h2>Weapon of Choice</h2>
+      <input type="text" name="weapon">
+
       <h2>Comments</h2>
-    </div>
-  </div><!--END CONTAINER-->
-</form>
-
-
+      <textarea name="comments">Anything else you want me to know?</textarea>
+    </div><!--END COLUMN THREE-->
+  </form>
 </body>
 </html>
