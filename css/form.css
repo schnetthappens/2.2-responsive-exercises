@@ -28,7 +28,6 @@ form {
   margin-left: 3%;
 }
 
-
 input,
 textarea,
 select {
@@ -36,6 +35,32 @@ select {
   background-color: #4BA2D9;
   border: 2px solid #fff;
 }
+
+
+select {
+  border: 1px solid #99AAB7;
+  margin-bottom: 2%;
+}
+
+
+textarea {
+  margin: 5% 0;
+}
+
+
+h2 {
+  margin-bottom: 1%;
+}
+
+::-webkit-input-placeholder {
+  color: #2a6b99 ;
+  font-style: italic;
+}
+
+
+
+
+
 
 /* textarea {
  width: 85%;
