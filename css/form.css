@@ -73,3 +73,34 @@ form {
         color: #fff;
         padding-left: 2%;
       }
+
+
+      /*mobile size*/
+
+      @media (max-width: 499px) {
+
+      form {
+        width: 100%;
+        height: auto;
+        margin: 3% auto;
+        background-color: #4BA2D9;
+        text-align: left;
+      }
+
+      .columnOne, .columnTwo, .columnThree {
+        width: 100%;
+      /*   display: inline-block; */
+        /* margin: 0 5%; */
+        vertical-align: middle;
+        margin-left: 3%;
+      }
+
+      .columnThree {
+        margin-bottom: 3%;
+      }
+
+
+
+
+
+    }
