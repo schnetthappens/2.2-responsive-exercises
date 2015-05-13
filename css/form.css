@@ -75,6 +75,7 @@ form {
       }
 
 
+<<<<<<< HEAD
 
       /*tablet size*/
 
@@ -104,6 +105,8 @@ form {
 
 
 
+=======
+>>>>>>> af066bfd895644481a712f5faa0c008face3be36
       /*mobile size*/
 
       @media (max-width: 499px) {
@@ -128,4 +131,11 @@ form {
         margin-bottom: 3%;
       }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> af066bfd895644481a712f5faa0c008face3be36
     }
